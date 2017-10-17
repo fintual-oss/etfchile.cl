@@ -1,0 +1,36 @@
+body {background:url(../trama.png) repeat-x;}
+h1, h2, h3, h4 {font-family:'Vollkorn', serif; margin-top: 1em 0 0.6;}
+h1 {
+	font-weight: 700;
+	text-align: center;
+	padding: 1.6em 0 0.7em;
+	background: url(../financial-e.png) no-repeat 0 -2em;
+	margin: 1.96em 0 1em;
+	height:4.6em;
+}
+
+a, a:hover {color:#3DADE2;}
+a:hover {text-decoration: underline; opacity: 0.6;}
+img {margin:1em 0 2em;}
+footer {background-color:black; color:white; text-align: center; padding: 2em; margin-top: 1em;}
+div.caption {
+	border-left:5px 
+	solid #ccc; 
+	color:#666; 
+	font-style: italic; 
+	font-size: 1em; 
+	padding: 1em 1em 1em 2em;
+	margin: 3em 0;
+	font-family:'Vollkorn', serif;
+}
+
+.callout {
+  position: relative;
+  margin: 0 0 1rem 0;
+  padding: 1.5rem;
+  border-radius: 0;
+  background-color: #184a73;
+  color: white; 
+}
+li {list-style-type: none; margin-bottom: 0.5em;}
+li::before {content: "\25AA"; color: #184a73; display:inline-block; width: 1em;}
