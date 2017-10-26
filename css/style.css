@@ -34,3 +34,7 @@ div.caption {
 }
 li {list-style-type: none; margin-bottom: 0.5em;}
 li::before {content: "\25AA"; color: #184a73; display:inline-block; width: 1em;}
+
+.share {border-top:1px solid #ccc; margin:3em 0; padding-top: 1em;}
+.share p {font-size: 85%; text-transform: uppercase; color: #999;}
+.share p, share.div {display: inline-block;}
